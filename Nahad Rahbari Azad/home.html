@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="WebFonts/css/fontiran.css">
+    <meta lang="fa">
+    <meta dir="rtl">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<header id="page-header" class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                <div class="d-flex flex-row align-items-center">
+
+                    <button class="d-lg-none btn btn-primary my-2 ml-2" id="navbar-button" ><i class="fas fa-bars text-dark"></i><span class="icon-bar"></span></button>
+
+                    <div class="ml-auto">
+                        <p class="m-0">نهاد نمایندگی مقام معظم رهبری در دانشگاه آزاد</p>
+                    </div>
+
+                    <script>
+                        $().ready(function () {
+                            $('#navbar-button').click(function (event) {
+                                $('#page-navigation-bar').toggleClass('d-none');
+                            });
+                        });
+                    </script>
+
+
+                    <nav class="d-none d-lg-block" id="page-navigation-bar">
+                        <ul class="menu clearfix">
+                            <li class="item clearfix"><a href="#">صفحه اصلی</a></li>
+                            <li class="item clearfix"><a href="#">معرفی نهاد</a></li>
+                            <li class="item clearfix"><a href="#">استادان</a></li>
+                            <li class="item clearfix"><a href="#">دانشجویان</a></li>
+                            <li class="item clearfix">
+                                <a href="#">کانون ها</a>
+                                <ul class="sub-menu clearfix">
+                                    <li class="triangle d-none d-lg-block"></li>
+                                    <li class="item clearfix"><a href="#">کانون اول</a></li>
+                                    <li class="item clearfix"><a href="#">کانون دوم</a></li>
+                                </ul>
+                            </li>
+                            <li class="item clearfix"><a href="#">تماس با ما</a></li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="page-body" class="my-5 pt-4 pt-lg-0">
+    <div class="container">
+
+        <div class="row" id="page-content">
+            <div class="col-12 col-md-8 col-lg-9">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card" id="chosen-news">
+                            <div class="card-header">
+                                <div class="card-title">اخبار برگزیده</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row no-gutters">
+                                    <div class="col-lg-8">
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide h-100"
+                                             data-ride="carousel">
+                                            <div class="carousel-inner h-100">
+                                                <div class="carousel-item active h-100">
+                                                    <img class="d-block w-100 h-100"
+                                                         src="http://iauksh.nahad.ir/uploads/img_3618_835992.jpg"
+                                                         alt="First slide">
+                                                </div>
+                                                <div class="carousel-item h-100">
+                                                    <img class="d-block w-100 h-100"
+                                                         src="http://iauksh.nahad.ir/uploads/img_3631.jpg"
+                                                         alt="Second slide">
+                                                </div>
+                                                <div class="carousel-item h-100">
+                                                    <img class="d-block w-100 h-100"
+                                                         src="http://iauksh.nahad.ir/uploads/img_3535_835966.jpg" 
+                                                         alt="Third slide">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <div class="carousel-navigator mx-lg-auto w-xl-75">
+                                            <ul class="list-group list-group-flush p-0">
+                                                <li class="list-group-item">
+                                                    <p class="text-center text-lg-right">● جلسه مسئول نهاد با اعضاء هیأت علمی گروه معارف</p>
+                                                    <span class="d-block text-left text-muted text-lg-right">3روز قبل</span>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="text-center text-lg-right">● جلسه ستاد ازدواج دانشجویی دفاتر نهاد رهبری در استان کرمانشاه</p>
+                                                    <span class="d-block text-left text-muted text-lg-right">3روز قبل</span>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <p class="text-center text-lg-right">● نشست هم اندیشی استادان دانشکده فنی مهندسی پیرامون چالش های دانشکده</p>
+                                                    <span class="d-block text-left text-muted text-lg-right">3روز قبل</span>
+                                                </li>
+                                            </ul>
+                                            <a class="my-3 d-block text-info text-center" href="#">مشاهده بیشتر ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="bg-white p-4 text-justify">
+                                    ياد خدا
+                                    رسول اكرم صلى الله عليه و آله:
+                                    
+                                    «يَقولُ اللّه عَزَّوَجَلَّ إِذ كانَ الغالِبُ عَلَى العَبدِ الاِشتِغالُ بى، جَعَلتُ بُغيَتَهُ وَلَذَّتَهُ فى ذِكرى فَإذا جَعَلتُ بُغيَتَهُ وَلَذَّتَهُ فى ذِكرى عَشَقَنى وَعَشَقتُهُ فَإِذا عَشَقَنى وَعَشَقتُهُ رَفَعتُ الحِجابَ فيما بَينى وَبَينَهُ وَصَيَّرتُ ذلِكَ تَغالُبَاَ عَلَيهِ لايَسهو إِذا سَهَا النّاسُ اُولئِكَ كَلامُهُم كَلامُ النبياءِ اُولئِكَ البطالُ حَقّا»
+                                    
+                                    خداى عزوجل مى فرمايد هرگاه ياد من بر بنده ام غالب شود، خواهش و خوشى او را در ياد خود قرار دهم و چون خواهش و خوشى او را در ياد خود قرار دهم عاشق من شود و من نيز عاشق او گردم و چون عاشق يكديگر شديم حجاب ميان خود و او را بر دارم و عشق خود را بر جان او چيره گردانم، چندان كه مانند مردم دچار سهو و غفلت نمى شود، سخن اينان سخن پيامبران است، اينان براستى قهرمانند.
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4 col-lg-6 mt-lg-0">
+                                <div class="bg-white p-4 text-justify">
+                                    مسئول نهاد نمایندگی مقام معظم رهبری در دانشگاه آزاد اسلامی استان کرمانشاه عنوان کرد: در این راستا هم دشمنان بین‌المللی و خارجی و هم برخی عناصر فریب‌خورده داخلی که متأسفانه از خواص هم جزء آنان بودند، در این بهانه سهیم شدند؛ اما پس از هزینه‌های فراوان، این نقشه برنامه‌ریزی شده دشمنان انقلاب در ۹ دی همان سال ناکام ماند.
+
+                                    ایشان با برشمردن نشانه‌های این نقشه تصریح کرد: شواهدی بر برنامه مدون برای براندازی در سال ۸۸ وجود داشت که از یک سال پیش از آن توسط مقام معظم رهبری بیان و هشدار داده شده بود که باعث وقوع فتنه شد؛ از قبیل بیان تشکیل کمیته صیانت از آرا یک‌سال پیش از انتخابات که پیش زمینه القای تقلب در انتخابات بود و شاهد دیگر را می‌توان سیاه‌نمایی دستاوردهای کشور و دولت وقت نام برد
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="row">
+                    <div class="col-12 mt-4 mt-md-0">
+                        <div class="card side-bar-item page-sidebar p-0">
+                            <div class="card-header">
+                                <div class="card-title" id="notifications">اطلاعیه</div>
+                            </div>
+                            <div class="card-body">
+                            </div>
+                        </card>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <div class="card side-bar-item page-sidebar p-0">
+                            <div class="card-header">
+                                <div class="card-title">آرشیو</div>
+                            </div>
+                            <div class="card-body">
+                                <ul id="archive-sidebar">
+                                    <li><a href="#">گالری تصاویر</a></li>
+                                    <li><a href="#">گالری فیلم</a></li>
+                                    <li><a href="#">مراسمات</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="page-footer" class="position-absolute w-100 p-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-navigator">
+                    <h3 class="h6 text-center text-lg-right w-lg-50">اخبار</h3>
+                    <ul class="text-center">
+                        <li class="text-center text-lg-right"><a href="#">دیدارها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">بازدیدها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">پیام ها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">احکام</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-navigator">
+                    <h3 class="h6 text-center text-lg-right w-lg-50">اخبار</h3>
+                    <ul class="text-center text-md-right">
+                        <li class="text-center text-lg-right"><a href="#">دیدارها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">بازدیدها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">پیام ها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">احکام</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-navigator">
+                    <h3 class="h6 text-center text-lg-right w-lg-50">اخبار</h3>
+                    <ul class="text-center">
+                        <li class="text-center text-lg-right"><a href="#">دیدارها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">بازدیدها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">پیام ها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">احکام</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="footer-navigator">
+                    <h3 class="h6 text-center text-lg-right w-lg-50">اخبار</h3>
+                    <ul class="text-center text-md-right">
+                        <li class="text-center text-lg-right"><a href="#">دیدارها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">بازدیدها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">پیام ها</a></li>
+                        <li class="text-center text-lg-right"><a href="#">احکام</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+</body>
+</html>
